@@ -1,0 +1,58 @@
+Listening for transport dt_socket at address: 54216
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1632milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1632"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54257"}
+{"logLevel":"info","message":"Listening on port:54257"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClickRegisterNowButtonFromRegisterPage' and 'Tests.LoginTest.ClickRegisterNowButtonFromRegisterPage'"}
+{"logLevel":"debug","message":"Found Kayit ol sayfasinda Register Now butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.IsLoginPageElementsPresent' and 'Tests.LoginTest.IsLoginPageElementsPresent'"}
+{"logLevel":"debug","message":"Found Oturum Acma Sayfasinde Logo-Email-Password-Login Butonu - Login FB ve Sifremi Unuttum Alanlari Gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClickRegisterButton' and 'Tests.LoginTest.ClickRegisterButton'"}
+{"logLevel":"debug","message":"Found Register Butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClickForgotPassword' and 'Tests.LoginTest.ClickForgotPassword'"}
+{"logLevel":"debug","message":"Found Forgot Password e tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClickOkButtonRegisterPage' and 'Tests.LoginTest.ClickOkButtonRegisterPage'"}
+{"logLevel":"debug","message":"Found Kayit sonrasi çikan OK butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.IsLoginPageOpen' and 'Tests.LoginTest.IsLoginPageOpen'"}
+{"logLevel":"debug","message":"Found login Sayfasinin acildigi gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClickLoginButton' and 'Tests.LoginTest.ClickLoginButton'"}
+{"logLevel":"debug","message":"Found Login Butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.CheckForgotPasswordMessage' and 'Tests.LoginTest.CheckForgotPasswordMessage'"}
+{"logLevel":"debug","message":"Found Sifreniz Email adresinize gonderilmistir mesaji geldigi gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.CheckSuccessfulRegisterMessage' and 'Tests.LoginTest.CheckSuccessfulRegisterMessage'"}
+{"logLevel":"debug","message":"Found Basarili register mesajı gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.IsRegisterPageOpen' and 'Tests.LoginTest.IsRegisterPageOpen'"}
+{"logLevel":"debug","message":"Found Register Sayfasinin acildigi gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.DisplayLogo' and 'Tests.LoginTest.DisplayLogo'"}
+{"logLevel":"debug","message":"Found Login Ekraninda Logo,Giris butonu ve Kayit ol butonu oldugu gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.setUserNameRegister' and 'Tests.LoginTest.setUserNameRegister'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı alanına {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.CheckPasswordLenght' and 'Tests.LoginTest.CheckPasswordLenght'"}
+{"logLevel":"debug","message":"Found Passwordun 5 karakterden uzun oldugu kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKullanıcı adı alanına {} yazılır : public void setUserNameRegister(String userName)"}
+{"logLevel":"debug","message":"\tKayit sonrasi çikan OK butonuna tiklanir : public void ClickOkButtonRegisterPage()"}
+{"logLevel":"debug","message":"\tBasarili register mesajı gorulur : public void CheckSuccessfulRegisterMessage()"}
+{"logLevel":"debug","message":"\tLogin Ekraninda Logo,Giris butonu ve Kayit ol butonu oldugu gorulur : public void DisplayLogo()"}
+{"logLevel":"debug","message":"\tRegister Butonuna tiklanir : public void ClickRegisterButton()"}
+{"logLevel":"debug","message":"\tOturum Acma Sayfasinde Logo-Email-Password-Login Butonu - Login FB ve Sifremi Unuttum Alanlari Gorulur : public void IsLoginPageElementsPresent()"}
+{"logLevel":"debug","message":"\tRegister Sayfasinin acildigi gorulur : public void IsRegisterPageOpen()"}
+{"logLevel":"debug","message":"\tKayit ol sayfasinda Register Now butonuna tiklanir : public void ClickRegisterNowButtonFromRegisterPage()"}
+{"logLevel":"debug","message":"\tForgot Password e tiklanir : public void ClickForgotPassword()"}
+{"logLevel":"debug","message":"\tSifreniz Email adresinize gonderilmistir mesaji geldigi gorulur : public void CheckForgotPasswordMessage()"}
+{"logLevel":"debug","message":"\tLogin Butonuna tiklanir : public void ClickLoginButton()"}
+{"logLevel":"debug","message":"\tlogin Sayfasinin acildigi gorulur : public void IsLoginPageOpen()"}
+{"logLevel":"debug","message":"\tPasswordun 5 karakterden uzun oldugu kontrol edilir : public void CheckPasswordLenght()"}
+Mar 21, 2021 12:35:21 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Register Butonuna tiklanir' using 'class Tests.LoginTest.ClickRegisterButton"}
+{"logLevel":"debug","message":"Executing 'Register Sayfasinin acildigi gorulur' using 'class Tests.LoginTest.IsRegisterPageOpen"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı adı alanına {} yazılır' using 'class Tests.LoginTest.setUserNameRegister"}
